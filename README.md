@@ -1,1 +1,6 @@
-# DigitalNote
+# DigitalNote 目錄
+
+## 資料結構與演算法
+* 《演算法圖鑑》
+   * 何謂資料結構
+   
