@@ -19,6 +19,7 @@
 * List<T>.Add(T)
   * 一旦 Count = Capasity，執行時間將為 O(n)
   * 當 Count < Capasity 時，想加入新物件於最末，執行時間為 O(1)
+  * 也可以這樣說：List<T>.Add(T) 最佳表現是 O(1)，最差表現是 O(n)
 
 * List<T>.Remove(T)：線性搜尋，最差的執行時間為 O(n)
 
