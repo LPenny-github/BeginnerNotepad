@@ -17,7 +17,7 @@
 
 * Array.BinarySearch(Array, Object)
   * 使用前提： Array 必須由小到大排序好
-  * 接受 Array 有重複元素，回傳 Array 中 *第一次* 遇到符合 Object 的 Index
+  * 接受 Array 有重複元素，回傳 Array 中 **第一次** 遇到符合 Object 的 Index
   * 若回傳的數值為負數，表示沒有找到相符的 Object
   * 最差執行時間為 O(log n)
 
