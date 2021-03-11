@@ -1,0 +1,32 @@
+##  O(n) vs Θ(n) vs Ω(n)
+
+**原作者 @twy30**
+
+在定義上來說，
+
+### Ο(n)
+* 唸作 "big-O of n"
+* Ο 是希臘字母的 Omicron
+* 可以寫作 O(n)
+* 當寫出 Ο(n), 就已經代表是在說「最糟的情形」，所以以下兩種說法的意思會是一樣的：
+  * 最糟執行時間是 O(n)
+  * 執行時間是 O(n)
+
+### Θ(n)
+* 唸作 "big-Theta of n"
+* Θ 是希臘字母的 Theta
+* 可以寫作 Theta(n)
+* Θ(n) 代表「最糟 與 最好 的情形是 (在演算法複雜度來說) 一樣的」
+
+### Ω(n)
+* 唸作 "big-Omega of n"
+* Ω 是希臘字母的 Omega
+* 可以寫作 Omega(n)
+* 當寫出 Ω(n), 就已經代表是在說「最好的情形」，所以以下兩種說法的意思會是一樣的：
+  * 最佳執行時間是 Omega(n)
+  * 執行時間是 Omega(n)
+
+---
+
+* Reference: https://en.wikipedia.org/wiki/Big_O_notation#Family_of_Bachmann%E2%80%93Landau_notations
+
