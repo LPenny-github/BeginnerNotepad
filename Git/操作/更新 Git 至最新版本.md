@@ -6,7 +6,7 @@
 
 ### 下更新指令
 
-`git update`
+`git update-git-for-windows` （請依據個人操作平台）
 
 ### 再次確定 Git 版本是否已更新至最新版本
 
