@@ -1,5 +1,11 @@
 ## 用 CLI 建立 C# HelloWorld
 
+應用範例的先決條件：
+
+1. 電腦已安裝 Visual Studio Code
+2. Visual Studio Code 已安裝 C# Extension
+3. 電腦已安裝 .Net 5.0 SDK 或更新版本
+
 ### 在 Windows PowerShell 上的輸入
 
 ```txt
