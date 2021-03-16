@@ -25,6 +25,7 @@
 * Stack<T>.ToArray：複製 Stack 中的內容到新的 Array 中
   * 複製的順序是由 Stack 的 top 開始，一路往下
   * 如果 Stack 的儲存順序為 A B C D，那 Array 自 Index = 0 的排序會是 D C B A 
+  * runtime 為 O(n)
 
 ### 參考資料
 
