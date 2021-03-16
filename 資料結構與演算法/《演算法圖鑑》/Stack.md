@@ -12,14 +12,14 @@
 
 ### 範例方法
 
-* Stack<T>.Push(T)：在 Stack 的上方（top）加入一個物件
+* Stack<T>.Push(T)：在 Stack 的上方（top）加入一個元素
   * 當 Count < Capacity，runtime 為 O(1)
-  * 一旦 Count = Capacity，程式會自動複製全部內容到新的儲存地點，所以 runtime 會成 O(n)
+  * 一旦 Count = Capacity，程式會自動複製全部元素到新的儲存地點，所以 runtime 會成 O(n)
 
-* Stack<T>.Peek：取出 Stack 最上方（/ top）的物件，但不移除
+* Stack<T>.Peek：取出 Stack 最上方（/ top）的元素，但不移除
   * runtime 為 O(1)
 
-* Stack<T>.Pop：取出 Stack 最上方（/ top）的物件，且隨後從 Stack 中移除
+* Stack<T>.Pop：取出 Stack 最上方（/ top）的元素，且隨後從 Stack 中移除
   * runtime 為 O(1)
 
 * Stack<T>.ToArray：複製 Stack 中的內容到新的 Array 中
