@@ -76,7 +76,7 @@ PS C:\Users\coldb\myHome> cd .\HelloWorld\
 PS C:\Users\coldb\myHome\HelloWorld> dotnet new console
 ```
 
-`dotnet` 是用來指示 CLI（Command-Line Interface 命令列介面） 執行 .NET 程式或相關指令的關鍵字
+`dotnet` 是用來指示 CLI（Command-Line Interface 命令列介面） 執行 .NET 程式或相關指令的 指令
 
 `dotnet new` 表示 creates a new project, configuration file, or solution based on the specified template.
 
