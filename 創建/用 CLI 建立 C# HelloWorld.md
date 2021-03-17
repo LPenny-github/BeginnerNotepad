@@ -56,7 +56,9 @@ PS C:\Users\coldb> cd .\myHome\
 
 `cd` 代表 change directory
 
-`cd` + 你想抵達的目錄名稱（可以鍵入前三個字，按 `tab` 讓電腦替你自動完成目錄名稱）
+`cd` + 你想抵達的目錄名稱
+
+* 自動完成目錄名稱的小技巧可參考：**讓 CLI 自動完成已建立的目錄或檔案名稱.md** 
 
 ```
 PS C:\Users\coldb\myHome> md HelloWorld
