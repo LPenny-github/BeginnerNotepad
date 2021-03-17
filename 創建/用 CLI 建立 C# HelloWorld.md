@@ -90,7 +90,7 @@ PS C:\Users\coldb\myHome\HelloWorld> dotnet new console
 PS C:\Users\coldb\myHome\HelloWorld> dotnet run
 ```
 
-`dotnet run` 表示 runs source code without any explicit compile or launch commands，即執行原始碼。但這是基於 `dotnet build` 編譯出的機器碼
+`dotnet run` 表示 runs source code without any explicit compile or launch commands，即執行原始碼。但這是基於 `dotnet build` 編譯出的 bytecode
 
 ---
 
