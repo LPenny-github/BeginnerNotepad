@@ -1,9 +1,12 @@
  - README.md
+ - Command-Line Interface\操作\將字串寫入檔案.md
  - Command-Line Interface\操作\讓 CLI 自動完成已建立的目錄或檔案名稱.md
  - Git\操作\提交改變至本地端.md
  - Git\操作\更改 Repo 名稱.md
  - Git\操作\更改最新一筆 git commit message.md
  - Git\操作\更新 Git 至最新版本.md
+ - Markdown\基礎用法.md
+ - Markdown\線上練功區.md
  - Markdown\製作表格.md
  - VS Code\操作\預覽 markdown 檔案.md
  - 創建\用 CLI 建立 C# HelloWorld.md
@@ -12,6 +15,7 @@
  - 檔案操作\本地端\寫入文字檔.md
  - 版本\如何知道可以寫哪個語言版本.md
  - 瞧我這記性\字串抽換.md
+ - 貓都能懂的概論\APP運作與記憶體.md
  - 資料結構與演算法\《演算法圖鑑》\Array.md
  - 資料結構與演算法\《演算法圖鑑》\List.md
  - 資料結構與演算法\《演算法圖鑑》\O(n) vs Θ(n) vs Ω(n).md
