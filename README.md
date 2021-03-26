@@ -17,6 +17,7 @@
  - 瞧我這記性\字串抽換.md
  - 貓都能懂的概論\APP運作與記憶體.md
  - 資料結構與演算法\《演算法圖鑑》\Array.md
+ - 資料結構與演算法\《演算法圖鑑》\hash table.md
  - 資料結構與演算法\《演算法圖鑑》\List.md
  - 資料結構與演算法\《演算法圖鑑》\O(n) vs Θ(n) vs Ω(n).md
  - 資料結構與演算法\《演算法圖鑑》\Queue.md
@@ -29,5 +30,7 @@
  - 軟工術語\一般\Runtime.md
  - 軟工術語\一般\SDK.md
  - 軟工術語\一般\作業系統.md
+ - 軟工術語\程式語言\Method chaining.md
  - 除錯\README.md 上傳 GitHub 換行跑版.md
  - 除錯\specified command or file was not found.md
+ - 除錯\The term is not recognized.md
