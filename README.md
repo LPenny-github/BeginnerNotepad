@@ -1,7 +1,11 @@
 * README
 * Command-Line Interface
+  * 創建
+    * 用 CLI 建立 C# HelloWorld
   * 操作
+    * md VS mkdir
     * 將字串寫入檔案
+    * 移動資料夾
     * 讓 CLI 自動完成已建立的目錄或檔案名稱
 * Git
   * 操作
@@ -16,8 +20,9 @@
 * VS Code
   * 操作
     * 預覽 markdown 檔案
-* 創建
-  * 用 CLI 建立 C# HelloWorld
+* 到底怎麼唸
+  * agile
+  * directory
 * 檔案操作
   * 本地端
     * 取得檔案路徑與檔名
