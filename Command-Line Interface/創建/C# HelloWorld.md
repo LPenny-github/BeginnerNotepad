@@ -1,4 +1,4 @@
-## 用 CLI 建立 C# HelloWorld
+## C# HelloWorld
 
 應用範例的先決條件：
 
