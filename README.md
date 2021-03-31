@@ -1,7 +1,8 @@
 * README
 * Command-Line Interface
   * 創建
-    * 用 CLI 建立 C# HelloWorld
+    * C# HelloWorld
+    * 含有 xunit 的 C# sln
   * 操作
     * md VS mkdir
     * 將字串寫入檔案
@@ -23,6 +24,8 @@
 * 到底怎麼唸
   * agile
   * directory
+* 就決定是你了皮卡丘
+  * foreach VS List.ForEach()
 * 檔案操作
   * 本地端
     * 取得檔案路徑與檔名
