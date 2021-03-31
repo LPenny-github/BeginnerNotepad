@@ -26,6 +26,10 @@
   * directory
 * 就決定是你了皮卡丘
   * foreach VS List.ForEach()
+* 我又跳出來了打我啊笨蛋
+  * README.md 上傳 GitHub 換行跑版
+  * specified command or file was not found
+  * The term is not recognized
 * 檔案操作
   * 本地端
     * 取得檔案路徑與檔名
@@ -57,7 +61,3 @@
     * 作業系統
   * 程式語言
     * Method chaining
-* 除錯
-  * README.md 上傳 GitHub 換行跑版
-  * specified command or file was not found
-  * The term is not recognized
