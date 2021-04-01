@@ -36,6 +36,28 @@ d-----         3/30/2021  11:56 AM                d
   * 在 DOS、OS/2、Windows 和 ReactOS，`mkdir` 可縮寫為 `md`
   * 也就是說，有些操作系統只認得 `mkdir`
 
+### 其他好玩的事
+
+用 `Get-Command 指令` 來看看 `md` 和 `mkdir` 兩個指令。
+
+* `md` 是 `mkdir` 的別名，`mkdir` 是 Windows PowerShell 的函式
+
+```
+PS C:\OnlyForTest> Get-Command md
+
+CommandType     Name                                               Version
+-----------     ----                                               -------
+Alias           md -> mkdir
+```
+
+```
+PS C:\OnlyForTest> Get-Command mkdir
+
+CommandType     Name                                               Version
+-----------     ----                                               -------
+Function        mkdir
+```
+
 ### 資料來源
 
 * mkdir
