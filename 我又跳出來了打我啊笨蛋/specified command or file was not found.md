@@ -63,3 +63,23 @@ Could not execute because the specified command or file was not found.
 例如：對狗 喵喵叫。狗回覆：「我聽不懂，我的汪生中從沒學過這些（指令）。」
 
 **所以，可能是找錯對象，或是表達錯誤。**
+
+### 使用 `Get-Command` 指令來了解 `dotnet` 和 `git`
+
+* `dotnet` 和 `git` 都是裝在電腦上的應用程式
+
+```
+PS C:\OnlyForTest> Get-Command dotnet
+
+CommandType     Name                                               Version
+-----------     ----                                               -------
+Application     dotnet.exe                                         5.0.4...
+```
+
+```
+PS C:\OnlyForTest> Get-Command git
+
+CommandType     Name                                               Version
+-----------     ----                                               -------
+Application     git.exe
+```
