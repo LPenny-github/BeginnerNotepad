@@ -5,9 +5,12 @@
     * 含有 xunit 的 C# sln
   * 操作
     * md VS mkdir
+    * 寫入與讀出字串
     * 將字串寫入檔案
     * 移動資料夾
     * 讓 CLI 自動完成已建立的目錄或檔案名稱
+  * 觀念
+    * sln 是什麼
 * Git
   * 操作
     * 提交改變至本地端
@@ -15,6 +18,7 @@
     * 更改最新一筆 git commit message
     * 更新 Git 至最新版本
 * Markdown
+  * 上標和下標
   * 基礎用法
   * 線上練功區
   * 製作表格
@@ -24,8 +28,12 @@
 * 到底怎麼唸
   * agile
   * directory
+  * redirection
 * 就決定是你了皮卡丘
   * foreach VS List.ForEach()
+* 工作方法
+  * SCRUM
+    * SCRUM 是什麼
 * 我又跳出來了打我啊笨蛋
   * README.md 上傳 GitHub 換行跑版
   * specified command or file was not found
