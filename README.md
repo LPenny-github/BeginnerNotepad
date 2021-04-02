@@ -4,6 +4,7 @@
     * C# HelloWorld
     * 含有 xunit 的 C# sln
   * 操作
+    * Get-Command VS Get-Help
     * md VS mkdir
     * 寫入與讀出字串
     * 將字串寫入檔案
