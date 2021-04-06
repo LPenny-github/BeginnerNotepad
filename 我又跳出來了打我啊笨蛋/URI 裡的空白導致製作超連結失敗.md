@@ -10,7 +10,7 @@
 
 假如 shortName = @"./軟工術語/一般/URI VS URL.md"
 
-以下三種皆可行：
+以下四種皆可行：
 
 1. `20` 是空白格的 16 進位 表示
 ```
@@ -33,6 +33,13 @@ path = shortName.Replace(" ","%40");
 // path = @"./軟工術語/一般/URI%40VS%40URL.md
 ```
 
+4. `=` 是另一種跳脫字元  
+```
+path = shortName.Replace(" ","=40");
+
+// path = @"./軟工術語/一般/URI=40VS=40URL.md
+```
+
 ### 搞得我好亂
 
 從以前平民老百姓很難上網，到撥接上網，到目前人人都可上網、幾乎處處都可上網。
@@ -43,10 +50,14 @@ path = shortName.Replace(" ","%40");
 ### 參考資料
 
 * 跳脫字元
+  > Quoted-printable，把8位元資料編碼為7位元有限行長的資料，使用=作為跳脫字元。
   * https://zh.wikipedia.org/wiki/转义字符
 
 * 百分號編碼
+  > 當HTML表單中的資料被提交時，表單的域名與值被編碼並通過HTTP的GET或者POST方法甚至更古遠的email[2]把請求傳送給伺服器。這裡的編碼方法採用了一個非常早期的通用的URI百分號編碼方法，並且有很多小的修改如換行規格化以及把空格符的編碼"%20"替換為"+" 。按這套方法編碼的資料的MIME類型是application/x-www-form-urlencoded，當前仍用於（雖然非常過時了）HTML與XForms規範中。
   * https://zh.wikipedia.org/wiki/百分号编码
 
 * ASCII CODE 對照表
   * https://mcusoft.files.wordpress.com/2015/07/ascii_code_table-1.pdf
+
+
