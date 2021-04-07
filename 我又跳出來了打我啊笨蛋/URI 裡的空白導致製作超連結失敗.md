@@ -10,7 +10,7 @@
 
 假如 shortName = @"./軟工術語/一般/URI VS URL.md"
 
-1. `20` 是空白格的 16 進位 表示
+1. `%` 是 URL 中的跳脫字元，`20` 是空白格的 16 進位 表示
 ```
 path = shortName.Replace(" ","%20"); 
 
@@ -22,12 +22,12 @@ path = shortName.Replace(" ","%20");
 
 因為 VS Code 解析 Markdown 文件時，只是簡單對格式判讀，並沒有測試連結是否可用。例如：
 
-1. [創建](ttps://github.com/LPenny-github/Notepad/tree/main/Command-Line%20Interface/創建) 
-    * `* [創建](./Command-Line%20Interface/創建)`
-2. [創建](ttps://github.com/LPenny-github/Notepad/tree/main/Command-Line+Interface/創建)   
-    * `* [創建](./Command-Line+Interface/創建)`
-3. [創建](ttps://github.com/LPenny-github/Notepad/tree/main/Command-Line Interface/創建)   
-    * `* [創建](./Command-Line Interface/創建)`
+1. [創建](https://github.com/LPenny-github/Notepad/tree/main/Command-Line%20Interface/創建) 
+    * `[創建](https://github.com/LPenny-github/Notepad/tree/main/Command-Line%20Interface/創建)`
+2. [創建](https://github.com/LPenny-github/Notepad/tree/main/Command-Line+Interface/創建)   
+    * `[創建](https://github.com/LPenny-github/Notepad/tree/main/Command-Line+Interface/創建)`
+3. [創建](https://github.com/LPenny-github/Notepad/tree/main/Command-Line Interface/創建)   
+    * `[創建](https://github.com/LPenny-github/Notepad/tree/main/Command-Line Interface/創建)`
 
 其中 1 和 2 因為 `()` 中為連續字串，被 VS Code 解析 為超連結；而 3 因為含有空白所以被認為不是超連結。其實在 GitHub 上點擊 2 是找不到頁面的。
 
