@@ -8,11 +8,12 @@
 
 ### 目前可行的方法
 
-假如 shortName = @"./軟工術語/一般/URI VS URL.md"
+假如 var shortName = @"./軟工術語/一般/URI VS URL.md"
 
 1. `%` 是 URL 中的跳脫字元，`20` 是空白格的 16 進位 表示
+
 ```
-path = shortName.Replace(" ","%20"); 
+var path = shortName.Replace(" ","%20"); 
 
 // path = @"./軟工術語/一般/URI%20VS%20URL.md
 ```
