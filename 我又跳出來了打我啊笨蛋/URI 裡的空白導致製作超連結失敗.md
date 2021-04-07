@@ -10,37 +10,29 @@
 
 假如 shortName = @"./軟工術語/一般/URI VS URL.md"
 
-雖然以下四種皆可在本地端 VS Code 預覽時，顯示為超連結，但上傳到 GitHub/雲端，只有第一種成功，其餘三種無法將有空白字元的超連結轉向成功：
-
-1. **（成功）** `20` 是空白格的 16 進位 表示
+1. `20` 是空白格的 16 進位 表示
 ```
 path = shortName.Replace(" ","%20"); 
 
 // path = @"./軟工術語/一般/URI%20VS%20URL.md
 ```
 
-2. **（失敗）** 使用 `+` 號
-```
-path = shortName.Replace(" ","+");
 
-// path = @"./軟工術語/一般/URI+VS+URL.md
-```
+### 為什麼 VS Code 預覽是超連結，上傳 GitHub，點連結卻顯示網頁不存在
 
-3. **（失敗）** `40` 是空白格的 8 進位 表示
-```
-path = shortName.Replace(" ","%40");
+因為 VS Code 解析 Markdown 文件時，只是簡單對格式判讀，並沒有測試連結是否可用。例如：
 
-// path = @"./軟工術語/一般/URI%40VS%40URL.md
-```
+1. [創建](./Command-Line%20Interface/創建) 
+    * `* [創建](./Command-Line%20Interface/創建)`
+2. [創建](./Command-Line+Interface/創建)   
+    * `* [創建](./Command-Line+Interface/創建)`
+3. [創建](./Command-Line Interface/創建)   
+    * `* [創建](./Command-Line Interface/創建)`
 
-4. **（失敗）** `=` 是另一種跳脫字元  
-```
-path = shortName.Replace(" ","=40");
+其中 1 和 2 因為 `()` 中為連續字串，被 VS Code 解析 為超連結；而 3 因為含有空白所以被認為不是超連結。其實在 GitHub 上點擊 2 是找不到頁面的。
 
-// path = @"./軟工術語/一般/URI=40VS=40URL.md
-```
 
-### 搞得我好亂
+### 一堆資料說可行，最後卻不行，搞得我好亂
 
 從以前平民老百姓很難上網，到撥接上網，到目前人人都可上網、幾乎處處都可上網。
 
