@@ -36,6 +36,7 @@
   * [PDCA](./工作方法/PDCA.md)
   * [SCRUM](./工作方法/SCRUM)
     * [SCRUM 是什麼](./工作方法/SCRUM/SCRUM%20是什麼.md)
+    * [《SCRUM用一半的時間做兩倍的事》](./工作方法/SCRUM/《SCRUM用一半的時間做兩倍的事》.md)
 * [打我啊笨蛋](./打我啊笨蛋)
   * [README.md 上傳 GitHub 換行跑版](./打我啊笨蛋/README.md%20上傳%20GitHub%20換行跑版.md)
   * [specified command or file was not found](./打我啊笨蛋/specified%20command%20or%20file%20was%20not%20found.md)
