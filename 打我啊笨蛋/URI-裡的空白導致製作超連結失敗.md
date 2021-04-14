@@ -32,6 +32,11 @@ var path = shortName.Replace(" ","%20");
 
 其中 1 和 2 因為 `()` 中為連續字串，被 VS Code 解析 為超連結；而 3 因為含有空白所以被認為不是超連結。其實在 GitHub 上點擊 2 是找不到頁面的。
 
+**因為檔名更新後不再有空白，所以以上三者的連結都不可用，請試試：**
+
+4. [創建](../../../tree/main/Command-Line-Interface/創建) 
+    * `[創建](../../../tree/main/Command-Line-Interface/創建)`
+
 
 ### 一堆資料說可行，最後卻不行，搞得我好亂
 
