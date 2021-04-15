@@ -36,6 +36,8 @@ var path = shortName.Replace(" ","%20");
 
 4. [創建](../../../tree/main/Command-Line-Interface/創建) 
     * `[創建](../../../tree/main/Command-Line-Interface/創建)`
+5. [創建](/../../Command-Line-Interface/創建)
+    * 5. `[創建](/../../Command-Line-Interface/創建)`
 
 
 ### 一堆資料說可行，最後卻不行，搞得我好亂
