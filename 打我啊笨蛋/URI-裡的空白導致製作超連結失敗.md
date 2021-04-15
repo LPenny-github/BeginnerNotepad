@@ -36,6 +36,7 @@ var path = shortName.Replace(" ","%20");
 
 4. [創建](../../../tree/main/Command-Line-Interface/創建) 
     * `[創建](../../../tree/main/Command-Line-Interface/創建)`
+      * **只是運氣好的寫法。**請務必參考 [如何用URI移駕到其他目錄](/../如何用URI移駕到其他目錄.md)
 5. [創建](/../../Command-Line-Interface/創建)
     * 5. `[創建](/../../Command-Line-Interface/創建)`
 
