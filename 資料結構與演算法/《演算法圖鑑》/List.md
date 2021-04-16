@@ -7,18 +7,18 @@
 * linear search 線性搜尋  （/ˈlɪn.i.ɚ/）
 
 * 底層為 Array
-  * 當 Count < Capasity 時，想加入新物件於最末，電腦用運算的方式找出新物件應該被放在哪裡：
+  * 當 Count < Capacity 時，想加入新物件於最末，電腦用運算的方式找出新物件應該被放在哪裡：
     * newObjectPosition = firstObjectPosition + newObjectIndex * perObjectPosition
     * 此時的 runtime 為 Ω(1)
     
-* 注意：一旦當 Count = Capasity，程式會自動複製 List 的內容到 新的位址，此時的 runtime 將為 O(n) 
+* 注意：一旦當 Count = Capacity，程式會自動複製 List 的內容到 新的位址，此時的 runtime 將為 O(n) 
 
 ### 範例方法
 * List<T>.Contains(T)：線性搜尋， runtime 為 O(n)
 
 * List<T>.Add(T)
-  * 一旦 Count = Capasity， runtime 將為 O(n)
-  * 當 Count < Capasity 時，想加入新物件於最末， runtime 為 Ω(1)
+  * 一旦 Count = Capacity， runtime 將為 O(n)
+  * 當 Count < Capacity 時，想加入新物件於最末， runtime 為 Ω(1)
   * 也可以這樣說：List<T>.Add(T) 最佳表現是 Ω(1)，最差表現是 O(n)
 
 * List<T>.Remove(T)：線性搜尋， runtime 為 O(n)
