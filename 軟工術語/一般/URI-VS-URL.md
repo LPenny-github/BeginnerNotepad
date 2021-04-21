@@ -1,4 +1,4 @@
-## URI VS URL
+# URI VS URL
 
 * URI（Uniform Resource Identifier）：一種識別碼（identifier），廣義而言，URI 包含 URL 和 URN。
 
@@ -8,7 +8,7 @@
 * URN（Uniform Resource Name）：一種名字即地址的識別碼
   * 例如：urn:isbn:0451450523
 
-### 資料來源
+## 資料來源
 
 * What’s the Difference Between a URI and a URL?
   * https://danielmiessler.com/study/difference-between-uri-url/#:~:text=The%20terms%20%E2%80%9CURI%E2%80%9D%20and%20%E2%80%9C,as%20HTTPs%20%2C%20FTP%20%2C%20etc.

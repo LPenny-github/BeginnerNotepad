@@ -1,8 +1,8 @@
-## 《What junior engineers don't know》 TechLead
+# 《What junior engineers don't know》 TechLead
 
 影片連結：https://youtu.be/NMuL6xOY1Ro
 
-### 筆記
+## 筆記
 
 1. 應用科技沒有對錯，有太多面向凌駕「對」之上。
 
@@ -26,7 +26,7 @@
 
 ---
 
-### twy30 大大的補充
+## twy30 大大的補充
 
 1. 背景知識："Tech lead" 通常是指「小組長」，而最基層的員工通常稱為 IC（individual contributor/個人貢獻者）。
    * Tech Lead 通常是帶領 "a team of ICs" (由 IC 組成的團隊)

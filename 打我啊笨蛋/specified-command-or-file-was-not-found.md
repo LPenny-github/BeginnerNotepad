@@ -1,6 +1,6 @@
-## `Could not execute because the specified command or file was not found.`
+# `Could not execute because the specified command or file was not found.`
 
-### 情境
+## 情境
 
 在 VS Code 裡的 TERMINAL 輸入指令，想要查詢 Git 本地端版本情形。
 
@@ -19,7 +19,7 @@ Possible reasons for this include:
 PS C:\Users\coldb\myHome\Notepad>
 ```
 
-### 修正
+## 修正
 
 ```
 PS C:\Users\coldb\myHome\Notepad> dotnet branch -a -vv
@@ -35,7 +35,7 @@ PS C:\Users\coldb\myHome\Notepad> git branch -a -vv
 
 ## 解釋
 
-### TERMINAL 收到人類的手動輸入後都做些什麼
+## TERMINAL 收到人類的手動輸入後都做些什麼
 
 （因為程度不足的關係，以下的敘述充滿擬人化譬喻）
 
@@ -50,7 +50,7 @@ PS C:\Users\coldb\myHome\Notepad> git branch -a -vv
 
 4. TERMINAL 顯示結果。
 
-### 錯誤訊息傳遞什麼樣的資訊
+## 錯誤訊息傳遞什麼樣的資訊
 
 ```
 Could not execute because the specified command or file was not found.
@@ -64,7 +64,7 @@ Could not execute because the specified command or file was not found.
 
 **所以，可能是找錯對象，或是表達錯誤。**
 
-### 使用 `Get-Command` 指令來了解 `dotnet` 和 `git`
+## 使用 `Get-Command` 指令來了解 `dotnet` 和 `git`
 
 * `dotnet` 和 `git` 都是裝在電腦上的應用程式
 

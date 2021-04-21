@@ -1,9 +1,9 @@
-## Method chaining
+# Method chaining
 
 * 物件導向的程式語言中，在同一行（statement）中使用多個方法（method）。
 * 每個方法執行後丟出 結果/物件（object），不需要建造新變數儲存，便能隨即被鍊在後面的方法使用。
 
-### 範例
+## 範例
 
 像是一個方法接連著用：
 
@@ -28,7 +28,7 @@ Console.WriteLine(output);
 // output: 2
 ```
 
-### 資料來源
+## 資料來源
 
 * Method chaining
   https://en.wikipedia.org/wiki/Method_chaining

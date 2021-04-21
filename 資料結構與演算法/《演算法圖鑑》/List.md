@@ -1,6 +1,6 @@
-## List
+# List
 
-### 特性
+## 特性
 
 * List 內成員可為 null，且 List 可接受重複元素
 
@@ -13,7 +13,7 @@
     
 * 注意：一旦當 Count = Capacity，程式會自動複製 List 的內容到 新的位址，此時的 runtime 將為 O(n) 
 
-### 範例方法
+## 範例方法
 * List<T>.Contains(T)：線性搜尋， runtime 為 O(n)
 
 * List<T>.Add(T)
@@ -23,7 +23,7 @@
 
 * List<T>.Remove(T)：線性搜尋， runtime 為 O(n)
 
-### 引用資料
+## 引用資料
 * List 底層為 Array 
   * https://github.com/dotnet/runtime/blob/v5.0.3/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs
 

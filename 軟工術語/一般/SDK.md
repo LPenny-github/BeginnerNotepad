@@ -1,8 +1,8 @@
-## 什麼是 SDK？
+# 什麼是 SDK？
 
 **原作者 @twy30**
 
-### SDK（Software Development Kit）
+## SDK（Software Development Kit）
 
 * 可直譯為「軟體 開發 套件」 (開發工具) 
 

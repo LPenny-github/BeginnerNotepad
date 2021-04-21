@@ -1,6 +1,6 @@
-## Stack
+# Stack
 
-### 特性
+## 特性
 
 * 適合短期儲存、看完即扔的資料，由你想拿到資料的順序
   * in the same order: Queue
@@ -10,7 +10,7 @@
 
 * 底層為 Array
 
-### 範例方法
+## 範例方法
 
 * Stack<T>.Push(T)：在 Stack 的上方（top）加入一個元素
   * 當 Count < Capacity，runtime 為 O(1)
@@ -27,7 +27,7 @@
   * 如果 Stack 的儲存順序為 A B C D，那 Array 自 Index = 0 的排序會是 D C B A 
   * runtime 為 O(n)
 
-### 參考資料
+## 參考資料
 
 * Stack<T> Class
   * https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-5.0

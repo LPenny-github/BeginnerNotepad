@@ -1,6 +1,6 @@
-## Array
+# Array
 
-### 特性
+## 特性
 
 * 若知道搜尋標的 Index，那搜尋時間可以降至 Ω(1)，否則為線性搜尋 O(n)
 
@@ -9,7 +9,7 @@
 * 支援 BinarySearch
 
 
-### 範例方法
+## 範例方法
 
 * Array.GetValue(Index)：找出該 Array 此 Index 的值，runtime 為 Ω(1)
 
@@ -28,7 +28,7 @@
   * runtime 為 O(n)，n 指的是 NewSize
 
 
-### 參考資料
+## 參考資料
 
 * Array Class
   * https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-5.0

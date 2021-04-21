@@ -1,6 +1,6 @@
-## md VS mkdir
+# md VS mkdir
 
-### 同
+## 同
 
 在 **Windows 操作系統** 中，`md` 和 `mkdir` 都可以建立 單一或多個 資料夾/目錄。
 
@@ -30,13 +30,13 @@ Mode                 LastWriteTime         Length Name
 d-----         3/30/2021  11:56 AM                d
 ```
 
-### 異
+## 異
 
 > In DOS, OS/2, Windows and ReactOS, the command is often abbreviated to md.
   * 在 DOS、OS/2、Windows 和 ReactOS，`mkdir` 可縮寫為 `md`
   * 也就是說，有些操作系統只認得 `mkdir`
 
-### 其他好玩的事
+## 其他好玩的事
 
 用 `Get-Command 指令` 來看看 `md` 和 `mkdir` 兩個指令。
 
@@ -58,7 +58,7 @@ CommandType     Name                                               Version
 Function        mkdir
 ```
 
-### 資料來源
+## 資料來源
 
 * mkdir
   * https://en.wikipedia.org/wiki/Mkdir

@@ -1,4 +1,4 @@
-## directory
+# directory
 
 * 意思：資料夾、目錄
 

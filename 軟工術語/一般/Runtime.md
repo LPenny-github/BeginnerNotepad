@@ -1,8 +1,8 @@
-## 什麼是 Runtime？
+# 什麼是 Runtime？
 
 **改寫自 @twy30**
 
-### Runtime 直譯是「執行時間」，有許多意思：
+## Runtime 直譯是「執行時間」，有許多意思：
 
 1. 執行時間
    * > Runtime is the period of time when a program is running.
@@ -21,7 +21,7 @@
 
 ---
 
-### Reference: 
+## Reference: 
 * https://techterms.com/definition/runtime#:~:text=Runtime%20is%20the%20period%20of,most%20often%20in%20software%20development.
 
 * https://dotnet.microsoft.com/download/dotnet/5.0

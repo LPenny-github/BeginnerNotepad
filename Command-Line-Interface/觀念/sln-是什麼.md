@@ -1,4 +1,4 @@
-## sln 是什麼
+# sln 是什麼
 
 以下全是譬喻，可能有不精準之處：
 
@@ -9,7 +9,7 @@
 但，光是把工具放入工具箱，忠心且耿直的工人無法了解你的深意，你必須指明工具箱必須放入的工具和測量工具（例如：`dotnet sln add 十字形螺絲起子.csproj`、`dotnet sln add 捲尺.csproj`），以及工具與測量工具之間依賴的關係（`dotnet add 捲尺.csproj reference 十字形螺絲起子.csproj`），好讓耿直的工人出發工作前照順序清點必要零件（沒有帶 `十字形螺絲起子` 的話，那 `捲尺` 要輔助誰咧），順利操作任務，達成完成拴緊螺絲釘的任務。
 
 
-### 參考資料
+## 參考資料
 
 * Visual Studio 中的方案和專案
   * https://docs.microsoft.com/zh-tw/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2019

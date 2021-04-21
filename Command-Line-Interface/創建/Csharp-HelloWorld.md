@@ -1,4 +1,4 @@
-## C# HelloWorld
+# C# HelloWorld
 
 應用範例的先決條件：
 
@@ -6,7 +6,7 @@
 2. Visual Studio Code 已安裝 C# Extension
 3. 電腦已安裝 .Net 5.0 SDK 或更新版本
 
-### 在 Windows PowerShell 上的輸入
+## 在 Windows PowerShell 上的輸入
 
 ```txt
 Windows PowerShell
@@ -44,7 +44,7 @@ PS C:\Users\coldb\myHome\HelloWorld>
 
 ---
 
-### 解釋
+## 解釋
 
 預設為 Home Directory，即 C:\Users\使用者名稱。
 
@@ -94,7 +94,7 @@ PS C:\Users\coldb\myHome\HelloWorld> dotnet run
 
 ---
 
-### 資料來源
+## 資料來源
 
 * Tutorial: Create a .NET console application using Visual Studio Code
   * https://docs.microsoft.com/zh-tw/dotnet/core/tutorials/with-visual-studio-code

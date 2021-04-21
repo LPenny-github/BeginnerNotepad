@@ -1,11 +1,11 @@
-## 更改最新一筆 git commit message
+# 更改最新一筆 git commit message
 
 兩個方法：
 
 1. 下指令 `git commit --amend -m "我才是最新版的訊息"`
 2. 下指令 `git commit --amend`，接著在編輯器中更新你的指令
 
-### 資料來源
+## 資料來源
 
 * 【狀況題】修改 Commit 紀錄
   * https://gitbook.tw/chapters/using-git/amend-commit1.html

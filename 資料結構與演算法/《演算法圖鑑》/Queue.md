@@ -1,6 +1,6 @@
-## Queue
+# Queue
 
-### 特性
+## 特性
 
 * 像排隊一樣。加入新元素在 Queue 的結尾，取出元素則從 Queue 的起頭開始，也就是 先進先出（First In First Out / FIFO）
 
@@ -8,7 +8,7 @@
 
 * 底層為 Array
 
-### 範例方法
+## 範例方法
 
 * Queue<T>.Enqueue(T)：加入新元素在 Queue 的結尾
   * 當 Count < Capacity，runtime 為 O(1)
@@ -24,7 +24,7 @@
   * 新 Array 中的元素順序和 Queue 相同 **<--這和 Stack 所提供的方法相反**
   * runtime 為 O(n)
 
-### 資料來源
+## 資料來源
 
 * Queue<T> Class
   * https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-5.0

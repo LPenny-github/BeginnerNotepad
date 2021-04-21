@@ -1,6 +1,6 @@
-## 創建含有 xunit 的 C# sln
+# 創建含有 xunit 的 C# sln
 
-### 步驟
+## 步驟
 
 以下是用 Windows PowerShell 的操作步驟：
 
@@ -13,14 +13,14 @@
 7. `dotnet sln add ConsoleApp\ConsoleApp.csproj`
 8. `dotnet add Tests\Tests.csproj reference ConsoleApp\ConsoleApp.csproj`
 
-### 解釋
+## 解釋
 
 * 步驟三：電腦會自動用目錄名稱當作 sln（solution） 的名稱
   * 若想自訂 sln 名稱，請用 `dotnet new sln -o 你想要的sln名稱`
 
 * 步驟六~八：電腦不會因為你在 sln 創建 project，就知道他們彼此的關聯，所以你需要手動建立
 
-### 怎麼確認上述步驟
+## 怎麼確認上述步驟
 
 * 確認步驟六、七成功：在 Windows PowerShell 中，至 notepad-directory-manager 目錄下，執行 `dotnet build`，`build` 這個命令會找尋目錄底下 `.sln` 或 `.csproj` 檔案，並且執行它。
   * 但這僅止表示 ConsoleApp 或 Tests 其中一個和 sln 建立關聯成功

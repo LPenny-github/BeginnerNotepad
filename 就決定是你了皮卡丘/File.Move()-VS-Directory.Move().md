@@ -1,6 +1,6 @@
-##　File.Move()　VS　Directory.Move()
+# File.Move()　VS　Directory.Move()
 
-### 同
+## 同
 
 File.Move()
 ```csharp
@@ -16,7 +16,7 @@ public static void Move (string sourceDirName, string destDirName);
 
 * 可以利用這個運作機制來改檔名。
 
-### 異
+## 異
 
 * File.Move() 只能處理檔案；Directory.Move() 可以處理 檔案 或 資料夾。
 
@@ -24,7 +24,7 @@ public static void Move (string sourceDirName, string destDirName);
   * Directory Class：適合處理 **一次性**、**大量** 檔案/資料夾
   * DirectoryInfo Class：適合 **多次**、**單一** 檔案/資料夾
 
-### 其他好玩的事情
+## 其他好玩的事情
 
 如果你用 File.Move() 來讀資料夾，那 TERMINAL 就會告訴你（只列第一行）：
 ```
@@ -42,7 +42,7 @@ Unhandled exception. System.IO.FileNotFoundException: Could not find file 'C:\On
 
 換作是 Directory.Move() 也有類似的狀況。
 
-### 參考資料
+## 參考資料
 
 * File.Move Method
   * https://docs.microsoft.com/en-us/dotnet/api/system.io.file.move?view=net-5.0#System_IO_File_Move_System_String_System_String_

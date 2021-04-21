@@ -1,6 +1,6 @@
-## hash table
+# hash table
 
-### 特性
+## 特性
 
 1. 彈性儲存資料、快速存取
 
@@ -8,7 +8,7 @@
 
 3. 實作，如：Dictionary
 
-### hash table 的誕生
+## hash table 的誕生
 
 1. 每個資料由 key 和 value 一對組成，key 不能為 null，也不能重複。
 
@@ -16,7 +16,7 @@
 
 3. 每個 input 經過 雜湊函數 運算後，生成 雜湊碼，接著用 雜湊碼 去取得 value。
 
-### 稍微細節的部份
+## 稍微細節的部份
 
 * 雜湊函數（hash function）
   * 諸如：MD5、SHA-1、SHA-2
@@ -40,7 +40,7 @@
   * 儲存空間開太大，浪費
   * 儲存空間開太小，提高 雜湊碰撞 的機率
 
-### 資料來源
+## 資料來源
 
 * Dictionary<TKey,TValue> Class
   * https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-5.0

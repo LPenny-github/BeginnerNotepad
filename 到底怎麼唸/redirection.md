@@ -1,4 +1,4 @@
-## redirection
+# redirection
 
 * 意思：重新導向
 
@@ -6,7 +6,7 @@
   * US: /ˌridəˈrɛkʃən/
   * UK: /'ri:dɪ'rekʃən/、/ˌriː.daɪˈrekʃən/
 
-### 參考資料
+## 參考資料
 
 * redirection
   * https://tw.voicetube.com/definition/redirection

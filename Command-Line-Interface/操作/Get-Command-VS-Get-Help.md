@@ -1,10 +1,10 @@
-## Get-Command VS Get-Help
+# Get-Command VS Get-Help
 
-### 同
+## 同
 
 都可以查詢命令。
 
-### 異
+## 異
 
 `Get-Help` 是從手冊中查詢，會提供完整的內容。如果你想要查詢的命令是本地端裝設的應用程式，請用 `Get-Command `，`Get-Help` 會認不出來。
 
@@ -69,7 +69,7 @@ At line:1 char:1
     + FullyQualifiedErrorId : HelpNotFound,Microsoft.PowerShell.Commands.GetHelpCommand
 ```
 
-### 參考資料
+## 參考資料
 
 * Get-Command
   * https://docs.microsoft.com/zh-tw/powershell/module/microsoft.powershell.core/get-command?view=powershell-7.1

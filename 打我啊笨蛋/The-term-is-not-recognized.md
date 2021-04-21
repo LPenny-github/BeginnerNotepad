@@ -1,6 +1,6 @@
-##  The term '>' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+#  The term '>' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 
-### 情境
+## 情境
 
 我打開 Windows PowerShell，輸入：
 
@@ -19,7 +19,7 @@ At line:1 char:51
     + FullyQualifiedErrorId : CommandNotFoundException
 ```
 
-### 發生什麼事
+## 發生什麼事
 
 **我把 ` 和 ' 搞混了**
 

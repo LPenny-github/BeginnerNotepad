@@ -1,12 +1,12 @@
-## foreach VS ListT.ForEach()
+# foreach VS ListT.ForEach()
 
-### 同
+## 同
 
 1. 兩個都可以把 List 中的物件，逐一取出。
 
 2. 都不允許 更改物件 或 變動 List 長度。
 
-### 異
+## 異
 
 主要是寫法上有差異 XD
 
@@ -34,7 +34,7 @@ names.ForEach(delegate(String name)
 });
 ```
 
-### 為什麼電腦知道我改了 List 裡面的內容
+## 為什麼電腦知道我改了 List 裡面的內容
 
 因為底層的 _version 變數會記錄 List 的版本。
 
@@ -86,7 +86,7 @@ public void Add(T item)
 }
 ```
 
-### 資料來源：
+## 資料來源：
 
 * foreach, in (C# reference)
   * https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in
