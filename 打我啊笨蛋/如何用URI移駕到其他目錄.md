@@ -24,9 +24,15 @@ https://github.com/LPenny-github/Notepad/tree/main/Command-Line-Interface/創建
 1. 回到 `main`
    * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../Command-Line-Interface/創建)
      * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../Command-Line-Interface/創建)`
+
 2. 回到 `Notepad`
    * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../../../tree/main/Command-Line-Interface/創建)
       * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../../../tree/main/Command-Line-Interface/創建)`
+      * https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/ 最後這個斜線會讓 `URI-裡的空白導致製作超連結失敗.md` 被認為是個 **目錄**
+
+3. 回到 `Notepad`
+   * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建)
+     * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建)`
 
 
 ## 等等，為何回到 `main` 可行？
@@ -45,15 +51,6 @@ https://github.com/LPenny-github/Notepad/tree/main/Command-Line-Interface/創建
 `https://github.com/LPenny-github/Notepad/blob/main/Command-Line-Interface/創建`
 
 但經由 GitHub 的自動修正機制，網址會自動由 `blob` 改成 `tree`，於是轉向成功！
-
-
-## 等等，為何 `https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建` 還是可行？
-
-3. 陰錯陽差做對的例子
-   * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建)
-     * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建)`
-
-因為 網站解析字串時自動修正錯誤的表示 `..`，所以 方法 3 等同 方法 1，都是回到 `main`。
 
 **檔案全名後 或是 目錄名後 一定要先加上 URI 分隔符號。**
 
