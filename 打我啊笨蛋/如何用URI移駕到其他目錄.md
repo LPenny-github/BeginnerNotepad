@@ -21,6 +21,8 @@ https://github.com/LPenny-github/Notepad/tree/main/Command-Line-Interface/創建
 
 可行的方法：
 
+* https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/ 最後這個斜線會讓 `URI-裡的空白導致製作超連結失敗.md` 被認為是個 **目錄**
+
 1. 回到 `main`
    * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../Command-Line-Interface/創建)
      * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../Command-Line-Interface/創建)`
@@ -28,8 +30,7 @@ https://github.com/LPenny-github/Notepad/tree/main/Command-Line-Interface/創建
 2. 回到 `Notepad`
    * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../../../tree/main/Command-Line-Interface/創建)
       * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/../../../../tree/main/Command-Line-Interface/創建)`
-      * https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md/ 最後這個斜線會讓 `URI-裡的空白導致製作超連結失敗.md` 被認為是個 **目錄**
-
+      
 3. 回到 `Notepad`
    * [創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建)
      * `[創建](https://github.com/LPenny-github/Notepad/blob/main/打我啊笨蛋/URI-裡的空白導致製作超連結失敗.md../../../Command-Line-Interface/創建)`
