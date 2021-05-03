@@ -4,7 +4,11 @@
 
 * 二元樹的小分類：
   * 1. full tree：每個 father node 都連接兩個 child node，也就是掛滿滿的意思。
-  * 2. complete tree：不是上面那種，也就是掛滿。
+  * 2. complete tree：不是上面那種，也就是沒掛滿。
+
+## 注意：perfect binary Tree 與 full binary tree 分類上的無限之戰
+
+如果遇到 perfect binary Tree，記得把 `每個 father node 都連接兩個 child node，也就是掛滿滿的意思` 給它。
 
 ## 計算 節點（node）總數 和 樹高
 
