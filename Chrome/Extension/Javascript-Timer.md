@@ -67,3 +67,6 @@ chrome.alarms.create('testAlarm', alarmInfo);
 
 * Chrome Extension 開發與實作 17-chrome.alarms 定時器API
   * https://ithelp.ithome.com.tw/articles/10188167
+
+* Documentation > Extensions > API Reference > chrome.alarms
+  * https://developer.chrome.com/docs/extensions/reference/alarms/
