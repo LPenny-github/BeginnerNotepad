@@ -6,9 +6,22 @@
   * 1. full tree：每個 father node 都連接兩個 child node，也就是掛滿滿的意思。
   * 2. complete tree：不是上面那種，也就是沒掛滿。
 
+
 ## 注意：perfect binary Tree 與 full binary tree 分類上的無限之戰
 
 如果遇到 perfect binary Tree，記得把 `每個 father node 都連接兩個 child node，也就是掛滿滿的意思` 給它。
+
+
+## 製作二元樹
+
+兩個方法：
+
+1. 用一個 Array 裝，child node 的 index 用計算得出
+   * 左邊 child node 的 index：2 * `father node index` + 1
+   * 右邊 child node 的 index：2 * `father node index` + 2
+
+2. 使用自訂結構 class
+
 
 ## 計算 節點（node）總數 和 樹高
 
@@ -20,23 +33,12 @@
    * 節點總數：2<sup>h-1</sup> <= k <= 2<sup>h</sup> -1
    * 樹高：	h = log<sub>2</sub> k+1
 
-## 製作二元樹
 
-兩個分法：
 
-1. 用一個 Array 裝，child node 的 index 用計算得出
-   * 左邊 child node 的 index：2 * `father node index` + 1
-   * 右邊 child node 的 index：2 * `father node index` + 2
+## Runtime
 
-2. 使用自訂結構 class
+當二元樹趨於平行時，最多進行 log<sub>2</sub> N 次的比較，runtime 為 O(logN)；但若二元樹呈現一直線，runtime 最差表現為 O(N)。N 為結點總數。
 
-## List<T>.BinarySearch Method
-
-* BinarySearch(T)：在 List 中找出元素 T 的 index
-  * List 必須已排序（sorted）
-  * runtime 為 O(logN)，N 是節點總數
-  * 如果找不到該元素，則傳回負值
-  * 如果該元素有多個，則隨機傳回其中一個的 index
 
 ## 等等， runtime 是 O(logN)？ log 底數一下子是 2、一下子是 10？
 
@@ -48,7 +50,8 @@
    * 大家心裡都知道 O(logN) 是 簡寫/化 O(log<sub>2</sub> N)，因為懶。
 
 2. 這種懶並不會影響大多數的判斷
-   * 無論是 O(logN) 或 O(log<sub>2</sub> N) 都比 O(N) 和 O(N<sup>2</sub>) 明顯來得小。
+   * 無論是 O(logN) 或 O(log<sub>2</sub> N) 都比 O(N) 和 O(N<sup>2</sup>) 明顯來得小。
+
 
 ## 參考資料
 
@@ -62,5 +65,4 @@
 * 樹狀結構(Python)
   * https://sites.google.com/site/zsgititit/home/python-cheng-shi-she-ji/shu-zhuang-jie-gou-python
 
-* List<T>.BinarySearch Method
-  * https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.binarysearch?view=net-5.0
+
