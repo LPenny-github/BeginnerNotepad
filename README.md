@@ -15,6 +15,7 @@
     * [批次檔是什麼](./Command-Line-Interface/觀念/批次檔是什麼.md)
 * [Computational-thinking](./Computational-thinking)
   * [《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》](./Computational-thinking/《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》)
+    * [10進位迴文](./Computational-thinking/《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》/10進位迴文.md)
 * [Database](./Database)
   * [行話](./Database/行話)
     * [ACID](./Database/行話/ACID.md)
