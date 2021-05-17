@@ -67,6 +67,14 @@
         rem pause
         ```
 
+
+## 錯過執行時間要怎麼辦呢
+
+設定錯過執行時間時，自動再執行一次。
+
+在該工作排程上右鍵，選 Properties，點 Settings，勾選 `Run task as soon as possible after a scheduled start is missing` （我不知道中文翻成什麼 XD） 
+
+
 ## 資料來源
 
 * 使用工作排程器執行批次檔
