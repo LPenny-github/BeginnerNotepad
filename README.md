@@ -18,6 +18,7 @@
     * [01-10進位迴文](./Computational-thinking/《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》/01-10進位迴文.md)
     * [03-翻卡片遊戲](./Computational-thinking/《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》/03-翻卡片遊戲.md)
     * [04-切棒子遊戲](./Computational-thinking/《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》/04-切棒子遊戲.md)
+    * [06-改造版考拉茲猜想](./Computational-thinking/《鍛鍊你的數學腦：讓你寫出簡單快速的69道解題程式》/06-改造版考拉茲猜想.md)
 * [Database](./Database)
   * [行話](./Database/行話)
     * [ACID](./Database/行話/ACID.md)
