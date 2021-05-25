@@ -1,4 +1,4 @@
-# Bubble Sort / 氣泡排序 / 泡沫排序
+# Bubble sort / 氣泡排序 / 泡沫排序
 
 ```csharp
 // 我自己寫的，例如 即時顯示遊戲排行榜
