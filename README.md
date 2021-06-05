@@ -103,6 +103,7 @@
     * [Heap](./資料結構與演算法/《演算法圖鑑》/Heap.md)
     * [Insertion-sort](./資料結構與演算法/《演算法圖鑑》/Insertion-sort.md)
     * [List](./資料結構與演算法/《演算法圖鑑》/List.md)
+    * [Merge-sort](./資料結構與演算法/《演算法圖鑑》/Merge-sort.md)
     * [O(n)-vs-Θ(n)-vs-Ω(n)](./資料結構與演算法/《演算法圖鑑》/O(n)-vs-Θ(n)-vs-Ω(n).md)
     * [Queue](./資料結構與演算法/《演算法圖鑑》/Queue.md)
     * [Selection-sort](./資料結構與演算法/《演算法圖鑑》/Selection-sort.md)
