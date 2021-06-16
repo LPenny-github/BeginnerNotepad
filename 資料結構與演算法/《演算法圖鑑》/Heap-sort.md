@@ -8,8 +8,8 @@ public class HeapSort1
     // int[] input = new int[] { 2, 4, 9, 3, 5 }
     public int[] HeapSortFuction(int[] input)
     {
-        BottomUp(input);
-        TopDown(input);
+        BottomUp(input); // O(N)
+        TopDown(input);  // O(N logN)
         return input;
     }
 
