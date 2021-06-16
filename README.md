@@ -100,6 +100,7 @@
     * [Binary-tree](./資料結構與演算法/《演算法圖鑑》/Binary-tree.md)
     * [Bubble-sort](./資料結構與演算法/《演算法圖鑑》/Bubble-sort.md)
     * [hash-table](./資料結構與演算法/《演算法圖鑑》/hash-table.md)
+    * [Heap-sort](./資料結構與演算法/《演算法圖鑑》/Heap-sort.md)
     * [Heap](./資料結構與演算法/《演算法圖鑑》/Heap.md)
     * [Insertion-sort](./資料結構與演算法/《演算法圖鑑》/Insertion-sort.md)
     * [List](./資料結構與演算法/《演算法圖鑑》/List.md)
