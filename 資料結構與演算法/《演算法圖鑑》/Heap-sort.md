@@ -20,8 +20,7 @@ public class HeapSort1
         for (int i = input.Length - 1; i >= 1; --i)
         {
             int parentIndex = GetParentIndex(i);
-            if (input[parentIndex] < input[i]) 
-            // stable 寫法: if (input[parentIndex] <= input[i])
+            if (input[parentIndex] < input[i]) // 非 stable 設計
             {
                 Swap(parentIndex, i, input);
             }
