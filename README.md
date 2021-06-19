@@ -95,6 +95,7 @@
   * [APP運作與記憶體](./貓都能懂的概論/APP運作與記憶體.md)
 * [資料結構與演算法](./資料結構與演算法)
   * [Dictionary](./資料結構與演算法/Dictionary.md)
+  * [Stability](./資料結構與演算法/Stability.md)
   * [《演算法圖鑑》](./資料結構與演算法/《演算法圖鑑》)
     * [Array](./資料結構與演算法/《演算法圖鑑》/Array.md)
     * [Binary-tree](./資料結構與演算法/《演算法圖鑑》/Binary-tree.md)
