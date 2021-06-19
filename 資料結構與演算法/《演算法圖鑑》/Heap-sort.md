@@ -3,77 +3,77 @@
 * runtime = O(N logN)
 
 ```csharp
-public class HeapSort1
-{
-    // int[] input = new int[] { 2, 4, 9, 3, 5 }
-    public int[] HeapSortFuction(int[] input)
-    {
-        BottomUp(input); // O(N)
-        TopDown(input);  // O(N logN)
-        return input;
-    }
+using System.Collections.Generic;
 
-    // output: 9  5  2  3  4  
-    int[] BottomUp(int[] input)
+public class HeapSort
+{
+    public int[] Sort(int[] input)
     {
-        if (input.Length <= 1) { return input; }
-        for (int i = input.Length - 1; i >= 1; --i)
+        if (input.Length <= 1)
         {
-            int parentIndex = GetParentIndex(i);
-            if (input[parentIndex] < input[i]) 
+            return input;
+        }
+
+        BottomUpHeapify(); // O(N)
+
+        Queue<int> output = new Queue<int>(input.Length);
+        for (int i = input.Length - 1; 0 <= i; --i)
+        {
+            output.Enqueue(input[0]);
+            input[0] = input[i];
+            var index = 0;
+            while (0 <= index)
             {
-                Swap(parentIndex, i, input);
+                index = TopDownHeapify(index, i); // O(N logN)
             }
         }
-        return input;
+
+        return output.ToArray();
 
         int GetParentIndex(int index) => (index - 1) / 2;
-    }
 
-    void Swap(int index1, int index2, int[] input)
-    {
-        int temp = input[index1];
-        input[index1] = input[index2];
-        input[index2] = temp;
-    }
-
-    // output: 2  3  4  5  9  
-    int[] TopDown(int[] input)
-    {
-        if (input.Length <= 1) { return input; }
-        for (int i = input.Length - 1; i >= 1; --i)
+        void Swap(int index1, int index2)
         {
-            int index = 0;
-            Swap(index, i, input);
-            while (index >= 0)
+            var t = input[index1];
+            input[index1] = input[index2];
+            input[index2] = t;
+        }
+
+        void BottomUpHeapify()
+        {
+            for (int i = input.Length - 1; 0 <= i; --i)
             {
-                index = TopDownHeapify(index, i);
+                var parentIndex = GetParentIndex(i);
+                if (input[parentIndex] < input[i])
+                {
+                    Swap(i, parentIndex);
+                }
             }
         }
-        return input;
 
-        int GetLeftChildIndex(int parentIndex) => (parentIndex * 2) + 1;
+        int GetLeftChildIndex(int index) => index * 2 + 1;
 
-        int TopDownHeapify(int parentIndex, int heapSize)
+        int TopDownHeapify(int index, int heapSize)
         {
-            int leftChildIndex = GetLeftChildIndex(parentIndex);
+            var leftChildIndex = GetLeftChildIndex(index);
             if (leftChildIndex < heapSize)
             {
-                int childIndex = leftChildIndex;
-                int childValue = input[leftChildIndex];
-                int rightChildIndex = leftChildIndex + 1;
+                var childIndex = leftChildIndex;
+                var childValue = input[childIndex];
+                var rightChildIndex = leftChildIndex + 1;
                 if (rightChildIndex < heapSize)
                 {
-                    int rightChildValue = input[rightChildIndex];
+                    var rightChildValue = input[rightChildIndex];
                     if (childValue < rightChildValue)
                     {
                         childIndex = rightChildIndex;
                         childValue = rightChildValue;
                     }
                 }
-                if (input[parentIndex] < childValue)
+                var myValue = input[index];
+                if (myValue <= childValue)
                 {
-                    Swap(parentIndex, childIndex, input);
+                    Swap(index, childIndex);
                     return childIndex;
                 }
             }
