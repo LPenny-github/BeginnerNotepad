@@ -108,6 +108,7 @@
     * [Merge-sort](./資料結構與演算法/《演算法圖鑑》/Merge-sort.md)
     * [O(n)-vs-Θ(n)-vs-Ω(n)](./資料結構與演算法/《演算法圖鑑》/O(n)-vs-Θ(n)-vs-Ω(n).md)
     * [Queue](./資料結構與演算法/《演算法圖鑑》/Queue.md)
+    * [Quick-sort](./資料結構與演算法/《演算法圖鑑》/Quick-sort.md)
     * [Selection-sort](./資料結構與演算法/《演算法圖鑑》/Selection-sort.md)
     * [Stack](./資料結構與演算法/《演算法圖鑑》/Stack.md)
     * [二元搜尋](./資料結構與演算法/《演算法圖鑑》/二元搜尋.md)
