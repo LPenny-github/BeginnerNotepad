@@ -41,7 +41,7 @@ public class QuickSort
                 {
                     int temp = input[startIndex];
                     input[startIndex] = input[endIndex];
-                    input[endIndex] = input[startIndex];
+                    input[endIndex] = temp;
                 }
                 else
                 {
