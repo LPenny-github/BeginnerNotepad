@@ -3,9 +3,12 @@
 * 舊方法：
 
 ```csharp
-int temp = input[index1];
-input[index1] = input[index2];
-input[index2] = temp;
+void Swap(int index1, int index2)
+{
+    var t = input[index1];
+    input[index1] = input[index2];
+    input[index2] = t;
+}
 ```
 
 * 新支援（其實已經不 **新** 了 😅）：
@@ -20,6 +23,11 @@ Console.WriteLine($" swapped: x = {x}, y = {y}");
 // Output:
 // original: x = 56, y = 77
 //  swapped: x = 77, y = 56
+```
+
+```csharp
+void Swap(int index1, int index2) =>
+    (input[index1], input[index2]) = (input[index2], input[index1]); 
 ```
 
 ## 參考資料
