@@ -62,6 +62,7 @@
     * [《SCRUM用一半的時間做兩倍的事》](./工作方法/SCRUM/《SCRUM用一半的時間做兩倍的事》.md)
 * [我需要這個酷東西](./我需要這個酷東西)
   * [Null聯合運算子](./我需要這個酷東西/Null聯合運算子.md)
+  * [用tuple做swap](./我需要這個酷東西/用tuple做swap.md)
 * [打我啊笨蛋](./打我啊笨蛋)
   * [Null不可當作DateTime的default參數](./打我啊笨蛋/Null不可當作DateTime的default參數.md)
   * [README.md-上傳-GitHub-換行跑版](./打我啊笨蛋/README.md-上傳-GitHub-換行跑版.md)
