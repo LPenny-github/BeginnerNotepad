@@ -55,6 +55,7 @@
   * [redirection](./到底怎麼唸/redirection.md)
 * [少林寺十八銅人](./少林寺十八銅人)
   * [static-modifier](./少林寺十八銅人/static-modifier.md)
+  * [this-modifier-in-extension-methods](./少林寺十八銅人/this-modifier-in-extension-methods.md)
 * [就決定是你了皮卡丘](./就決定是你了皮卡丘)
   * [File.Move()-VS-Directory.Move()](./就決定是你了皮卡丘/File.Move()-VS-Directory.Move().md)
   * [foreach-VS-List.ForEach()](./就決定是你了皮卡丘/foreach-VS-List.ForEach().md)
