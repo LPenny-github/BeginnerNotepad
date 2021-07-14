@@ -88,6 +88,7 @@
 * [版本](./版本)
   * [如何知道可以寫哪個語言版本](./版本/如何知道可以寫哪個語言版本.md)
 * [瞧我這記性](./瞧我這記性)
+  * [Enumerable.SequenceEqual比對陣列內容](./瞧我這記性/Enumerable.SequenceEqual比對陣列內容.md)
   * [nameof-expression](./瞧我這記性/nameof-expression.md)
   * [Stopwatch計時](./瞧我這記性/Stopwatch計時.md)
   * [字串抽換](./瞧我這記性/字串抽換.md)
