@@ -142,5 +142,6 @@
   * [物件導向](./軟工術語/物件導向)
     * [事件](./軟工術語/物件導向/事件.md)
   * [程式語言](./軟工術語/程式語言)
+    * [Deferred-execution](./軟工術語/程式語言/Deferred-execution.md)
     * [Method-chaining](./軟工術語/程式語言/Method-chaining.md)
     * [跳脫字元](./軟工術語/程式語言/跳脫字元.md)
