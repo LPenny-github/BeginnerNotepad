@@ -137,6 +137,7 @@
     * [API](./軟工術語/一般/API.md)
     * [bytecode](./軟工術語/一般/bytecode.md)
     * [machinecode](./軟工術語/一般/machinecode.md)
+    * [PII](./軟工術語/一般/PII.md)
     * [Runtime](./軟工術語/一般/Runtime.md)
     * [SDK](./軟工術語/一般/SDK.md)
     * [URI-VS-URL](./軟工術語/一般/URI-VS-URL.md)
