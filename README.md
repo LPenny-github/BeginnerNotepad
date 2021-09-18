@@ -98,6 +98,7 @@
     * [讀出單一個檔案的內容](./檔案操作/本地端/讀出單一個檔案的內容.md)
 * [版本](./版本)
   * [如何知道可以寫哪個語言版本](./版本/如何知道可以寫哪個語言版本.md)
+  * [如何知道自己dotnet和git版本](./版本/如何知道自己dotnet和git版本.md)
 * [瞧我這記性](./瞧我這記性)
   * [Char-Array-to-String](./瞧我這記性/Char-Array-to-String.md)
   * [Enumerable.SequenceEqual比對陣列內容](./瞧我這記性/Enumerable.SequenceEqual比對陣列內容.md)
