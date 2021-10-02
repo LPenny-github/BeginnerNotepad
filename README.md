@@ -69,6 +69,7 @@
   * [foreach-VS-List.ForEach()](./就決定是你了皮卡丘/foreach-VS-List.ForEach().md)
   * [TimeSpan.Days-VS-TimeSpan.TotalDays](./就決定是你了皮卡丘/TimeSpan.Days-VS-TimeSpan.TotalDays.md)
   * [比較兩個當地日期的先後](./就決定是你了皮卡丘/比較兩個當地日期的先後.md)
+  * [獲得包含特定字串的字串陣列](./就決定是你了皮卡丘/獲得包含特定字串的字串陣列.md)
 * [工作方法](./工作方法)
   * [PDCA](./工作方法/PDCA.md)
   * [SCRUM](./工作方法/SCRUM)
