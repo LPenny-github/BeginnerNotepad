@@ -89,6 +89,8 @@
   * [Value-was-either-too-large-or-too-small-for-an-Int32](./打我啊笨蛋/Value-was-either-too-large-or-too-small-for-an-Int32.md)
   * [如何用URI移駕到其他目錄](./打我啊笨蛋/如何用URI移駕到其他目錄.md)
   * [看了兩週Chrome-Extension卻沒有成果](./打我啊笨蛋/看了兩週Chrome-Extension卻沒有成果.md)
+  * [錯誤代碼](./打我啊笨蛋/錯誤代碼)
+    * [CS0050](./打我啊笨蛋/錯誤代碼/CS0050.md)
 * [檔案操作](./檔案操作)
   * [JSON](./檔案操作/JSON)
     * [什麼是JSON](./檔案操作/JSON/什麼是JSON.md)
