@@ -77,6 +77,7 @@
     * [SCRUM-是什麼](./工作方法/SCRUM/SCRUM-是什麼.md)
     * [《SCRUM用一半的時間做兩倍的事》](./工作方法/SCRUM/《SCRUM用一半的時間做兩倍的事》.md)
 * [我需要這個酷東西](./我需要這個酷東西)
+  * [Instantiate-an-object-without-spelling-out-the-type](./我需要這個酷東西/Instantiate-an-object-without-spelling-out-the-type.md)
   * [Null聯合運算子](./我需要這個酷東西/Null聯合運算子.md)
   * [用tuple做swap](./我需要這個酷東西/用tuple做swap.md)
 * [打我啊笨蛋](./打我啊笨蛋)
