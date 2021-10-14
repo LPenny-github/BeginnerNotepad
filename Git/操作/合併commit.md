@@ -153,3 +153,8 @@ add 3 files
 儲存，關閉檔案。
 
 5. `git log` ：確認是否合併成功。
+
+
+### 方法一附註
+
+* `git help rebase` ：查閱更多關於 rebase 的資訊。
