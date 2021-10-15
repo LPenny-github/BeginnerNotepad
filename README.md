@@ -30,6 +30,7 @@
     * [DBMS](./Database/行話/DBMS.md)
 * [Git](./Git)
   * [操作](./Git/操作)
+    * [DeleteBranch](./Git/操作/DeleteBranch.md)
     * [main合併branch](./Git/操作/main合併branch.md)
     * [合併commit](./Git/操作/合併commit.md)
     * [提交改變至本地端](./Git/操作/提交改變至本地端.md)
