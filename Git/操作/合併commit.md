@@ -16,10 +16,12 @@
 
 1. `git log` ：確認本地端 Head 的位置，版本號碼也有改變。看完 按 `q` 。
 
+---
+---
 
 ## 假如你想要合併多個 commit
 
-### 方法一
+### 方法一： `git rebase -i HEAD~3`
 
 1. `git log` ：看看本地端 Head 與 遠端版本 在哪個節點，看完 按 `q` 退出。
 
@@ -154,7 +156,29 @@ add 3 files
 
 5. `git log` ：確認是否合併成功。
 
+---
 
-### 方法一附註
+### 方法二： `git reset --soft HEAD~3`
 
-* `git help rebase` ：查閱更多關於 rebase 的資訊。
+1. `git log` ：看看本地端 Head 與 遠端版本 在哪個節點，看完 按 `q` 退出。
+
+1. `git reset --soft HEAD~3` ：回到包括 HEAD 的三個 commit 之前的狀態，這三個改變將顯示於 暫存區。
+
+1. `git commit -a -m "add 3 files"` ：給這三個改變，一個新的 commit message。
+
+
+#### 參考資料
+
+* What is difference between 'git reset --hard HEAD~1' and 'git reset --soft HEAD~1'?
+  * https://stackoverflow.com/questions/24568936/what-is-difference-between-git-reset-hard-head1-and-git-reset-soft-head
+
+* 【狀況題】剛才的 Commit 後悔了，想要拆掉重做…
+  * https://gitbook.tw/chapters/using-git/reset-commit.html
+
+---
+
+### 附註
+
+* `git help 指令` ：查閱更多關於 指令 的資訊。例如：
+  * `git help rebase`
+  * `git help reset`
