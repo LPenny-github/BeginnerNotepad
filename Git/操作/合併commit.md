@@ -177,8 +177,30 @@ add 3 files
 
 ---
 
+### 方法三： `git merge --squash Child`
+
+1. `git log` ：看看本地端 Head 與 遠端版本 在哪個節點，看完 按 `q` 退出。
+
+1. `git checkout Mom` ：將主場移置 Mom 這個分支。
+
+1. `git merge --squash Child` ：把 Child 分支裡面的更動複製一份到 Mom 的暫存區。
+
+1. `git commit -a -m "add 3 files` ：給這些更動一個 commit message。
+
+
+#### 參考資料
+
+* How can I merge multiple commits onto another branch as a single squashed commit?
+  * https://stackoverflow.com/questions/5308816/how-can-i-merge-multiple-commits-onto-another-branch-as-a-single-squashed-commit#:~:text=git%20merge%20%2D%2Dsquash%20allows,t%20be%20marked%20as%20merged!
+
+* Git: Squash Commits
+  * https://www.twy30.com/Pages/Git-Squash-Commits.html?fbclid=IwAR1S-yISrso-7TNLNJcS4ATmTf0muceCLNqmEtR0fBvZe4iC9pc2C3GMwmo
+
+---
+
 ### 附註
 
 * `git help 指令` ：查閱更多關於 指令 的資訊。例如：
   * `git help rebase`
   * `git help reset`
+  * `git help merge`
