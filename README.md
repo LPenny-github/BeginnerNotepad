@@ -83,6 +83,7 @@
   * [用tuple做swap](./我需要這個酷東西/用tuple做swap.md)
 * [打我啊笨蛋](./打我啊笨蛋)
   * [CSharp的NaN](./打我啊笨蛋/CSharp的NaN.md)
+  * [field變數序列化成json失敗](./打我啊笨蛋/field變數序列化成json失敗.md)
   * [Null不可當作DateTime的default參數](./打我啊笨蛋/Null不可當作DateTime的default參數.md)
   * [README.md-上傳-GitHub-換行跑版](./打我啊笨蛋/README.md-上傳-GitHub-換行跑版.md)
   * [specified-command-or-file-was-not-found](./打我啊笨蛋/specified-command-or-file-was-not-found.md)
