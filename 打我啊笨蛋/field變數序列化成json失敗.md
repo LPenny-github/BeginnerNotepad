@@ -78,7 +78,9 @@ namespace BlackBox
 
 ## 解法
 
-在 JsonSerializerOptions 裡，將 IncludeFields 改為 true （預設為 false）。
+### 一：更改全域設定。
+
+* 在 JsonSerializerOptions 裡，將 IncludeFields 改為 true （預設為 false）。
 
 ```csharp
 var options = new JsonSerializerOptions
@@ -89,8 +91,25 @@ var options = new JsonSerializerOptions
 };
 ```
 
+### 二：為欄位設定屬性。
+
+```csharp
+using System.Text.Json.Serialization;
+
+public class FieldHouseholdChoreInformation
+{
+    [JsonInclude]
+    public string HouseholdChoreName; 
+    [JsonInclude]
+    public int IdealFrequency;
+}
+```
+
 
 ## 參考資料
 
 * JsonSerializerOptions.IncludeFields Property
   * https://docs.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializeroptions.includefields?view=net-5.0
+
+* 如何在 .NET 中序列化和還原序列化 (封送處理和 unmarshal) JSON
+  * https://docs.microsoft.com/zh-tw/dotnet/standard/serialization/system-text-json-how-to?pivots=dotnet-5-0
