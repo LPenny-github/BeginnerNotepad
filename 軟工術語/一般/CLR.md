@@ -5,7 +5,7 @@
 
 > 開發人員使用高階程式語言撰寫程式。接下來編譯器將程式碼編譯成微軟的中繼語言(MSIL)。執行的時候CLR會將MSIL碼轉換為作業系統的原生碼（Native code）。
 
-<img src="https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%AA%9E%E8%A8%80%E9%81%8B%E8%A1%8C%E5%BA%AB#/media/File:Common_Language_Runtime_diagram.svg" alt="CLR from Wiki" />
+<img src="CLRfromWiki.png" alt="CLR from Wiki" />
 
 
 ## Why
@@ -28,5 +28,3 @@
 
 * 通用語言運行庫
   * https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%AA%9E%E8%A8%80%E9%81%8B%E8%A1%8C%E5%BA%AB
-
-* 
