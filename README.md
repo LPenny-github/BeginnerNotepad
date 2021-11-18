@@ -13,6 +13,7 @@
     * [移動資料夾](./Command-Line-Interface/操作/移動資料夾.md)
     * [讓-CLI-自動完成已建立的目錄或檔案名稱](./Command-Line-Interface/操作/讓-CLI-自動完成已建立的目錄或檔案名稱.md)
   * [觀念](./Command-Line-Interface/觀念)
+    * [dotnet-add-reference](./Command-Line-Interface/觀念/dotnet-add-reference.md)
     * [sln-是什麼](./Command-Line-Interface/觀念/sln-是什麼.md)
     * [批次檔是什麼](./Command-Line-Interface/觀念/批次檔是什麼.md)
 * [Computational-thinking](./Computational-thinking)
