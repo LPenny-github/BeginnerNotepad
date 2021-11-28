@@ -34,6 +34,7 @@
     * [DeleteBranch](./Git/操作/DeleteBranch.md)
     * [main合併branch](./Git/操作/main合併branch.md)
     * [合併commit](./Git/操作/合併commit.md)
+    * [同步遠端分支](./Git/操作/同步遠端分支.md)
     * [提交改變至本地端](./Git/操作/提交改變至本地端.md)
     * [新專案加上git且連結GitHub](./Git/操作/新專案加上git且連結GitHub.md)
     * [更改-Repo-名稱](./Git/操作/更改-Repo-名稱.md)
