@@ -49,6 +49,34 @@ public int[] SelectionSortFuction2(int[] numbers)
 }
 ```
 
+或 更直觀：
+
+```csharp
+
+// runtime = n(n-1)
+public int[] SelectionSortFuction3(int[] numbers)
+{
+    for (int firstPointer = 0; firstPointer < numbers.Length -1; ++firstPointer)
+    {
+        int minIndex = firstPointer;
+                
+        for (int secondPointer = firstPointer + 1; secondPointer < numbers.Length; ++secondPointer)
+        {
+            if (numbers[secondPointer] < numbers[minIndex])
+            {
+                minIndex = secondPointer;
+            }
+        }
+
+        if (minIndex != firstPointer)
+        {
+            (numbers[firstPointer], numbers[minIndex]) = (numbers[minIndex], numbers[firstPointer]);
+        }
+    }
+    return numbers;
+}
+```
+
 * runtime = O( N<sup>2</sup> ) <-- 概算
 
 
@@ -67,7 +95,7 @@ public int[] SelectionSortFuction2(int[] numbers)
 		{
 			if (a[j] < a[min])    //找到目前最小值
 			{
-				min = j;    //紀錄最小值
+				min = j;    //紀錄最小值的 index
 			}
 		}
 		if(min != i)
