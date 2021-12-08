@@ -97,6 +97,7 @@
   * [Instantiate-an-object-without-spelling-out-the-type](./我需要這個酷東西/Instantiate-an-object-without-spelling-out-the-type.md)
   * [Null聯合運算子](./我需要這個酷東西/Null聯合運算子.md)
   * [用tuple做swap](./我需要這個酷東西/用tuple做swap.md)
+  * [用tuple於方法中傳遞參數](./我需要這個酷東西/用tuple於方法中傳遞參數.md)
 * [打我啊笨蛋](./打我啊笨蛋)
   * [CSharp的NaN](./打我啊笨蛋/CSharp的NaN.md)
   * [field變數序列化成json失敗](./打我啊笨蛋/field變數序列化成json失敗.md)
