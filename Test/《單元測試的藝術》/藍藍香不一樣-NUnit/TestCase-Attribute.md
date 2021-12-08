@@ -1,4 +1,4 @@
-# [TestCase] Attribute Descriptions
+# [TestCase] Attribute Description
 
 
 * 可以在同一個測試方法中，投遞一個至多個測試參數。
