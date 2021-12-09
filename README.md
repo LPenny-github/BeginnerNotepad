@@ -56,6 +56,7 @@
       * [Assert.AreEqual-VS-Assert.AreSame](./Test/《單元測試的藝術》/藍藍香不一樣-NUnit/Assert.AreEqual-VS-Assert.AreSame.md)
       * [Compare-two-collections](./Test/《單元測試的藝術》/藍藍香不一樣-NUnit/Compare-two-collections.md)
       * [TestCase-Attribute](./Test/《單元測試的藝術》/藍藍香不一樣-NUnit/TestCase-Attribute.md)
+      * [TestFixture-Attribute](./Test/《單元測試的藝術》/藍藍香不一樣-NUnit/TestFixture-Attribute.md)
 * [VS-Code](./VS-Code)
   * [更改namespace](./VS-Code/更改namespace.md)
   * [操作](./VS-Code/操作)
