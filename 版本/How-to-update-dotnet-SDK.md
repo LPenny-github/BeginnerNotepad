@@ -43,3 +43,30 @@
 1. 開啟 PowerShell 或 CLI
 
 1. `dotnet --version` ：查詢版本
+
+
+## 等等，為什麼我的 .net 5.0 的專案無法自動升級為 .net 6.0 ？
+
+
+因為目前仍然需要手動。
+
+
+### 步驟
+
+1. 打開專案中所有檔名為 `launch.json` ，把 `configurations` 裡的 `program` 中的字串由 net5.0 改為 net6.0 。
+
+1. 打開專案中所有副檔名為 `.csproj` ， 
+   
+   把 `<TargetFramework>net5.0</TargetFramework>` 
+
+   改成 `<TargetFramework>net6.0</TargetFramework>`
+
+1. `dotnet build` ：編譯
+
+1. 自選項目：關掉編輯器重開
+
+### 驗證
+
+* 打開專案資料夾 bin > Debug ，看是否有出現 `.net6.0` 這個資料夾。
+
+* 若有寫測試的話，跑看看是否能如期執行。
