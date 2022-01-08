@@ -62,6 +62,8 @@
   * [操作](./VS-Code/操作)
     * [快速鍵](./VS-Code/操作/快速鍵.md)
     * [預覽-markdown-檔案](./VS-Code/操作/預覽-markdown-檔案.md)
+* [Windows10](./Windows10)
+  * [Keyboard-shortcuts](./Windows10/Keyboard-shortcuts.md)
 * [你知道什麼是噹噹噹噹](./你知道什麼是噹噹噹噹)
   * [用Windows工作排程執行git-push](./你知道什麼是噹噹噹噹/用Windows工作排程執行git-push.md)
   * [避免網址被自動翻譯成16進位](./你知道什麼是噹噹噹噹/避免網址被自動翻譯成16進位.md)
