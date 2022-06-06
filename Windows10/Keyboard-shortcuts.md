@@ -1,6 +1,11 @@
 # Keyboard shortcuts
 
 
+## 系統
+
+* `ctrl` + `shift` + `esc` : 開啟工作管理員
+
+
 ## 視窗調整
 
 * `Windows` + `↑` / `↓` : 視窗展開（Maximize） / 視窗還原成原本大小（Restore Down）
